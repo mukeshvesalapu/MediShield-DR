@@ -4,7 +4,7 @@ import {
   AreaChart, Area, XAxis, YAxis, Tooltip, ResponsiveContainer
 } from 'recharts';
 
-const API = 'http://localhost:3000';
+const API = 'https://medishield-dr.onrender.com';
 
 const THEME = {
   bgMain: '#191b1f',
