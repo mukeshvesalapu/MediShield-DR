@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+# 🏥 MediShield DR
+## Hospital Disaster Recovery & 
+## Backup Management System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Prompt Builder 2026
+### AWS Cloud Innovation Track
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🎯 Problem Statement
+Design an automated cloud backup and 
+disaster recovery solution with 
+monitoring dashboard.
 
-### `npm start`
+## 💡 Our Solution
+MediShield DR gives rescue teams 
+real-time visibility of every patient 
+on every floor during disasters so 
+no one is left behind.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## ✨ Key Features
+- Real-time floor occupancy monitoring
+- Patient condition tracking per floor
+- AI-powered rescue priority (Gemini Pro)
+- Automated backup every 2 minutes
+- One-click emergency restore
+- Live monitoring dashboard
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🏗️ Tech Stack
+- Frontend: React.js (Netlify)
+- Backend: Node.js + Express (Railway)
+- Database: MongoDB Atlas
+- AI: Google Gemini Pro
+- Deployment: Railway + Netlify
 
-### `npm test`
+## 🔗 Live Links
+- Frontend: [paste netlify url here]
+- Backend: [paste railway url here]
+- GitHub: [paste github url here]
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 👤 Login Credentials
+- Admin: admin / admin123
+- Rescue Team: rescue / rescue123
+- Doctor: doctor / doctor123
 
-### `npm run build`
+## 📊 Evaluation Criteria Coverage
+| Criteria | Implementation |
+|---|---|
+| Innovation 20% | Gemini AI rescue priority |
+| Cloud Architecture 20% | MongoDB + Railway + Netlify |
+| Technical 20% | Full stack + auto backup |
+| Security 15% | JWT auth + bcrypt |
+| UI/UX 10% | Dark dashboard + live data |
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🏥 Floor Data
+| Floor | Ward | People | Priority |
+|---|---|---|---|
+| Floor 6 | Pediatric | 18 | HIGH |
+| Floor 5 | Maternity | 15 | HIGH |
+| Floor 4 | Surgery | 12 | MEDIUM |
+| Floor 3 | General | 35 | LOW |
+| Floor 2 | ICU | 8 | HIGH |
+| Floor 1 | Emergency | 20 | MEDIUM |
+| TOTAL | | 108 | |
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 🚨 Patient Conditions
+| Condition | Count | Action |
+|---|---|---|
+| Ventilator | 13 | Rescue First |
+| Wheelchair | 27 | Need Help |
+| Can Walk | 68 | Self Evacuate |
