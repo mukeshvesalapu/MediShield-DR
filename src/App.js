@@ -28,7 +28,8 @@ const THEME = {
 };
 
 const axiosOptions = (token) => ({
-  headers: { Authorization: `Bearer ${token}` }
+  headers: { Authorization: `Bearer ${token}` },
+  timeout: 4000
 });
 
 // --- Toast Component ---
@@ -63,7 +64,7 @@ const LoginModal = ({ onClose, onLogin, addToast }) => {
     setErrorMsg('');
     setLoading(true);
     try {
-      const res = await axios.post(`${API}/api/auth/login`, { username, password });
+      const res = await axios.post(`${API}/api/auth/login`, { username, password }, { timeout: 4000 });
       onLogin(res.data.token, res.data.user);
     } catch (err) {
       if (username === 'admin' && password === 'admin123') {

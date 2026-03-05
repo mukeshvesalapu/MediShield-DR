@@ -25,7 +25,7 @@ router.get('/', authMiddleware, async (req, res) => {
 
         res.json({
             system: 'MediShield DR',
-            status: 'operational',
+            status: 'SECURE',
             totalBackups: totalBackups,
             lastBackup: latestBackup ? latestBackup.timestamp : '-',
             uptime: process.uptime(),
